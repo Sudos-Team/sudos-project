@@ -1,7 +1,5 @@
 # Architecture-diagram
 
-
-
 ![architecture-diagram](https://user-images.githubusercontent.com/55548241/190910868-b525da58-3265-4d15-9175-f3bd6d5df843.png)
 
 # Terraform structure
@@ -42,6 +40,12 @@
             ├── outputs.tf
             └── variables.tf
 ```
+
+# Steps
+
+
+
+
 
 # DuiHua
 # Sudos Project 
