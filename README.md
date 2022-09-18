@@ -11,10 +11,6 @@
     ├── outputs.tf
     ├── variables.tf
     ├── modules
-         ├── aws-cloudfront
-         │   ├── main.tf
-         │   ├── outputs.tf
-         │   └── variables.tf
          ├── aws-ec2
          │   ├── main.tf
          │   ├── outputs.tf
@@ -24,10 +20,6 @@
          │   ├── outputs.tf
          │   └── variables.tf
          ├── aws-elasticbeanstalk-cloudfront
-         │   ├── main.tf
-         │   ├── outputs.tf
-         │   └── variables.tf
-         ├── aws-loadbalancer
          │   ├── main.tf
          │   ├── outputs.tf
          │   └── variables.tf
