@@ -4,11 +4,12 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('jenkins-access-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('jenkins-secret-access-key')
         REGION = "us-east-1"
-        AWS_S3_BUCKET = "sudos-duihua-s3bucket"
+        //s3 bucket change name here too ///
+        AWS_S3_BUCKET = "project-s3bucket"
         ARTIFACT_NAME = "duihua.war"
-        AWS_EB_APP_NAME = "sudos-duihua-app"
+        AWS_EB_APP_NAME = "Elasticbeanstalk-app"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = "sudos-duihua-env"
+        AWS_EB_ENVIRONMENT = "Elasticbeanstalk-env"
         SONAR_IP = "54.90.231.11"
         SONAR_PROJECT = "duihua-devops-project"
         SONAR_TOKEN = "ef40528131c6157c4de46afda16c3a3f49cb90fb"
@@ -70,7 +71,7 @@ pipeline {
         }
         stage ("terraform apply elasticbeanstalk") {
             steps {
-                sh ('terraform -chdir=Terraform/modules/aws-elasticbeanstalk-cloudfront apply -target="aws_elastic_beanstalk_application.sudos-duihua-app" -target="aws_elastic_beanstalk_environment.sudos-duihua-env" --auto-approve')
+                sh ('terraform -chdir=Terraform/modules/aws-elasticbeanstalk-cloudfront apply -target="aws_elastic_beanstalk_application.Elasticbeanstalk-app" -target="aws_elastic_beanstalk_environment.Elasticbeanstalk-env" --auto-approve')
            }
         }
         stage('Deploy') {
