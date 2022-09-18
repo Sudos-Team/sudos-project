@@ -10,9 +10,9 @@ pipeline {
         AWS_EB_APP_NAME = "Elasticbeanstalk-app"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Elasticbeanstalk-env"
-        SONAR_IP = "54.90.231.11"
-        SONAR_PROJECT = "duihua-devops-project"
-        SONAR_TOKEN = "ef40528131c6157c4de46afda16c3a3f49cb90fb"
+        SONAR_IP = "sonar-IP" // set the sonarqube ///
+        SONAR_PROJECT = "sonar-project-name" // set the sonarqube ///
+        SONAR_TOKEN = "sonartoken" // set the sonarqube ///
     }
     stages {
         stage('Validate') {
@@ -31,11 +31,6 @@ pipeline {
             steps {
                 sh "mvn test"
             }
-            //post{
-                //always{
-                    //junit '**/target/surefire-reports/TEST-*.xml'
-                //}
-            //}
         }
 
         stage('Quality Scan'){
