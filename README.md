@@ -1,15 +1,15 @@
 # Project Description 
 
 The project is designed to provision a Sonarqube and MySql server using Docker Containers to be used in this Module.
-- it uses Terraform Scripts to create: 
+- it uses Terraform Scripts as infrastructure as a code (IaC) to create:
 
   - EC2 instance
   - VPC  
   - S3 bucket
-  - ElasticBeanstalk
+  - ElasticBeanstalk on high-availability infrastructure (Load Balancer)
   - CloudFront
   
-  The project will host the maven application that is tested, scanned using Sonarqube, and built using Jenkins pipeline.
+  The project will host the maven application that is tested, scanned using Sonarqube, and built using Jenkins pipeline as a CI/CD.
   
   
 # Architecture-diagram
