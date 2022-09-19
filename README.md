@@ -90,7 +90,10 @@ to run this deployment pipline follow this steps:
     - **Secound: SonarQube**
       - go to public_ip:9000 which will open the SonarQube Login page
         - ![image](https://user-images.githubusercontent.com/55548241/190986501-b1139e06-28b0-4084-847e-004694b1f1ae.png)
-        - Login as Admin ![image](https://user-images.githubusercontent.com/55548241/190986640-ce54a64e-7825-4e2e-a406-fdfde4356285.png)
+        - Login as Admin
+          - Username: admin
+          - Passowrd: admin
+          - ![image](https://user-images.githubusercontent.com/55548241/190986640-ce54a64e-7825-4e2e-a406-fdfde4356285.png)
        - Create a SonarQube Project 
          - ![image](https://user-images.githubusercontent.com/55548241/190986899-58710b69-563c-4a3a-9d8c-848e6f6b5c6d.png)
        - add the values in **Jenkinsfile** of youre project
@@ -100,7 +103,7 @@ to run this deployment pipline follow this steps:
         
       ---
       
-    - **Thired: Jenkins server**
+    - **Third: Jenkins server**
       - ssh into the aws EC2 instance and run
         ```
         sudo cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -139,7 +142,8 @@ to run this deployment pipline follow this steps:
   - ![image](https://user-images.githubusercontent.com/55548241/190992737-4f3840af-004b-4cda-be1f-21b133becf00.png)
 ### The End .
 
-# Sudos Team
+# Contributors
+### Sudos Team: 
 1. [Mohammed Shaikh](https://github.com/m-shaikh1)
 2. [Raghad Almutlaq](https://github.com/raghadmta)
 3. [Aisha Alsubaie](https://github.com/Aishabs/)
