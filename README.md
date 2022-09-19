@@ -9,7 +9,7 @@ The project is designed to provision a Sonarqube and MySql server using Docker C
   - ElasticBeanstalk on high-availability infrastructure (Load Balancer)
   - CloudFront
   
-  The project will host the maven application that is tested, scanned using Sonarqube, and built using Jenkins pipeline as a CI/CD.
+  The project will host the maven application that is tested, scanned using Sonarqube, and built using Jenkins pipeline as a CI/CD tool.
   
   
 # Architecture-diagram
