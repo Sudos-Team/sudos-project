@@ -1,5 +1,5 @@
 # Project Description 
-
+This project is designed to provision a Sonarqube and MySql server to be used in this project and amazon aws ec2, vpc, s3bucket, elasticbeanstalk, and cloudfront to host the maven application that is tested , scanned using Sonarqube, and built using Jenkins pipeline.
 # Architecture-diagram
 ![architecture-diagram](https://user-images.githubusercontent.com/55548241/190977085-22105029-e22e-4236-a3f1-0cf1e686bba8.png)
 
