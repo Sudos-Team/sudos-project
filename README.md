@@ -105,7 +105,7 @@ to run this deployment pipline follow this steps:
         ```
         sudo cat /var/lib/jenkins/secrets/initialAdminPassword
         ```
-        - ![image](https://user-images.githubusercontent.com/55548241/190988557-319ff4dd-17fe-4feb-bdf7-afded4485bef.png)     
+        - ![2022-09-19 (20)](https://user-images.githubusercontent.com/55548241/190996462-fe76e142-1d3c-4421-9af7-41a78fb93a4f.png)
       - copy the password and set up Jenkins at public_ip:8080
         - ![image](https://user-images.githubusercontent.com/55548241/190988934-949e6835-0038-4687-bde8-35886ff30735.png)
         - ![image](https://user-images.githubusercontent.com/55548241/190989158-240489b2-f662-4405-9559-aa6686d5bf2c.png)
@@ -137,6 +137,7 @@ to run this deployment pipline follow this steps:
   - ![image](https://user-images.githubusercontent.com/55548241/190992637-ce42ca5d-260c-49a8-83d8-ec61e97e849d.png)
   - ![image](https://user-images.githubusercontent.com/55548241/190992694-ba7dc384-4b7a-46c6-8be2-e5d93c594310.png)
   - ![image](https://user-images.githubusercontent.com/55548241/190992737-4f3840af-004b-4cda-be1f-21b133becf00.png)
+### The End .
 
 # Sudos Team
 1. [Mohammed Shaikh](https://github.com/m-shaikh1)
